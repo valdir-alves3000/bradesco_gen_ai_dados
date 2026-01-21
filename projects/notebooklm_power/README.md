@@ -1,81 +1,100 @@
-# NotebookLM: "Do Código ao Console"
+# NotebookLM — Do Código ao Console
 
-## "Game Dev Mentor: Da Programação à Publicação"
+![Game Mentor](./assets/game_mentor_banner.png)
 
-## **Descrição**:
-Este NotebookLM é um **mentor virtual especializado em desenvolvimento de jogos** que transforma programadores em criadores de jogos completos. Ele oferece um **roteiro estruturado** desde os fundamentos do game loop até a publicação nas lojas digitais, cobrindo tanto desenvolvimento web quanto mobile.
+## Game Dev Mentor: Da Programação à Publicação
 
-## **Objetivo Principal**:
-Guiar desenvolvedores através da jornada completa de criação de jogos, desde os conceitos fundamentais até a publicação profissional, com foco em **JavaScript, React Native e Three.js**.
 
-## 🧠 **Conhecimentos Especializados**:
+Este repositório apresenta o **NotebookLM “Do Código ao Console”**, um **mentor virtual especializado em desenvolvimento de jogos**, criado para guiar programadores na transição entre escrever código e publicar jogos completos em ambientes web e mobile.
 
-### 1. **Fundamentos de Jogos**
-- Compreensão profunda do **Game Loop** vs. aplicações reativas
-- Implementação com `requestAnimationFrame` para 60 FPS
+A proposta é oferecer um **caminho estruturado e prático**, cobrindo desde os fundamentos do game loop até o pipeline profissional de publicação em lojas digitais.
+
+---
+
+## 🎯 Objetivo
+
+Guiar desenvolvedores por toda a jornada de criação de jogos — do conceito à distribuição — com foco em **JavaScript, React Native e Three.js**, aplicando boas práticas de performance, design e arquitetura.
+
+---
+
+## 🧠 Conhecimentos Abordados
+
+### 1. Fundamentos de Jogos
+- Diferença entre **Game Loop** e aplicações reativas
+- Uso de `requestAnimationFrame` para 60 FPS
 - Manipulação avançada do **Canvas HTML5**
 
-### 2. **Três Rotas de Desenvolvimento**
-- **Rota 1**: JS Puro (estilo "Roots") - Arrays, matrizes, física básica
-- **Rota 2**: Frameworks Web (Phaser vs. PixiJS) - Escolha inteligente de ferramentas
-- **Rota 3**: React Native - Jogos mobile com JavaScript
+### 2. Rotas de Desenvolvimento
+- **JavaScript Puro**: lógica base, arrays, matrizes e física simples  
+- **Frameworks Web**: comparação prática entre Phaser e PixiJS  
+- **Mobile com React Native**: jogos multiplataforma com JavaScript
 
-### 3. **Desenvolvimento 3D Moderno**
-- **React Three Fiber (R3F)**: 3D declarativo no React
-- Ecossistema mobile 3D (Expo-GL, React Native Filament)
-- Otimização para dispositivos móveis
+### 3. Desenvolvimento 3D Moderno
+- **React Three Fiber (R3F)** para 3D declarativo
+- Ecossistema 3D mobile (Expo GL, Filament)
+- Técnicas de otimização para dispositivos móveis
 
-### 4. **Arte e Design**
-- Princípios de **Pixel Art** e estilo visual
-- Checklist de qualidade (evitar mixels, paleta de cores, perspectiva)
-- Ferramentas recomendadas (Aseprite)
+### 4. Arte e Design
+- Fundamentos de **Pixel Art**
+- Checklists visuais (paleta, perspectiva, mixels)
+- Ferramentas recomendadas como **Aseprite**
 
-### 5. **Otimização de Performance**
-- Técnicas para manter 60 FPS constante
-- Remoção de `console.log` em produção
-- Uso estratégico de `useMemo` e `useCallback`
+### 5. Performance e Otimização
+- Estratégias para manter FPS estável
+- Boas práticas de produção (remoção de logs)
+- Uso consciente de `useMemo` e `useCallback`
 - Gerenciamento de memória e recursos
 
-### 6. **Pipeline de Publicação**
-- Build e compilação (Expo EAS)
-- Testes beta (TestFlight, Google Play Console)
-- Distribuição para lojas de aplicativos
-- Validação com usuários reais
+### 6. Pipeline de Publicação
+- Build e distribuição com **Expo EAS**
+- Testes beta (TestFlight e Google Play Console)
+- Publicação e validação com usuários reais
 
-## 🛠️ **O que este NotebookLM pode fazer por você**:
+---
 
-### **Para Iniciantes**:
-- Explicar conceitos fundamentais do game loop
-- Ensinar a criar jogos simples (Snake, platformers)
-- Guiar na escolha da engine adequada
-- Mostrar como implementar física básica
+## 🛠️ O que este NotebookLM oferece
 
-### **Para Intermediários**:
-- Comparar frameworks (Phaser vs. PixiJS)
-- Ensinar desenvolvimento 3D com React Three Fiber
-- Orientar sobre otimização de performance
-- Explicar técnicas de pixel art
+### Para Iniciantes
+- Introdução ao game loop
+- Criação de jogos simples (Snake, platformers)
+- Escolha consciente de engines
+- Implementação de física básica
 
-### **Para Avançados**:
-- Guiar na publicação para lojas
-- Ensinar técnicas avançadas de otimização
-- Explicar o ecossistema 3D mobile
-- Orientar sobre distribuição beta
+### Para Intermediários
+- Comparação entre frameworks
+- Introdução ao 3D com R3F
+- Técnicas de otimização
+- Fundamentos de pixel art
 
-## 📊 **Metodologia de Ensino**:
-- **Aprendizado baseado em casos**: Snake, Mario Physics, noise.com
-- **Comparações práticas**: Web vs. Native, Phaser vs. PixiJS
-- **Checklists de qualidade**: Padrões visuais, otimização
-- **Guias passo a passo**: Do código fonte ao pacote final
+### Para Avançados
+- Pipeline completo de publicação
+- Otimização avançada
+- Ecossistema 3D mobile
+- Estratégias de distribuição beta
 
-## 🎨 **Princípios Filosóficos**:
-1. **"Comece pequeno"**: Clone clássicos primeiro
-2. **"Ideias valem pouco, execução vale muito"** - Lua Lúdica
-3. **Participação em Game Jams** para treinar sob pressão
-4. **Publicação é aprendizado real** quando usuários instalam
+---
 
-## **Tecnologias Abordadas**:
-- JavaScript Vanilla
+## 📊 Metodologia
+
+- Aprendizado baseado em **casos reais**
+- Comparações práticas entre tecnologias
+- Checklists técnicos e visuais
+- Guias passo a passo, do código ao deploy
+
+---
+
+## 🎨 Princípios do Projeto
+
+1. Comece pequeno e evolua
+2. Execução vale mais que ideia
+3. Game Jams como ferramenta de aprendizado
+4. Publicar é parte essencial do processo
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+- JavaScript
 - Canvas HTML5
 - Phaser
 - PixiJS
@@ -86,24 +105,25 @@ Guiar desenvolvedores através da jornada completa de criação de jogos, desde 
 - TestFlight
 - Google Play Console
 
-## **Público-Alvo**:
-- Desenvolvedores que querem entrar no mundo de games
-- Programadores web que desejam criar jogos mobile
+---
+
+## 👥 Público-Alvo
+
+- Desenvolvedores iniciando em game dev
+- Programadores web migrando para mobile
 - Estudantes de desenvolvimento de jogos
-- Indie devs buscando melhorar seu pipeline de publicação
-- Professores de programação e desenvolvimento de jogos
-
-## **Diferenciais Únicos**:
-- **Abordagem holística**: Cobre desde o código até a publicação
-- **Foco em JavaScript**: Usa tecnologias familiares para desenvolvedores web
-- **Orientação prática**: Baseado em casos reais e exemplos concretos
-- **Atualizado**: Inclui tecnologias modernas como R3F e Expo-GL
-
-## 📚 **Estrutura Modular**:
-O NotebookLM está organizado em **6 módulos principais** correspondentes às seções do PDF, permitindo que você aprenda no seu próprio ritmo e foco.
-
-Este NotebookLM não é apenas um tutor - é um **companheiro de jornada** que transforma sua paixão por programação em habilidades concretas de desenvolvimento de jogos, guiando você do primeiro `requestAnimationFrame` até a publicação na App Store. 🚀
+- Indie devs buscando profissionalização
+- Educadores da área de programação
 
 ---
 
-*"Você já sabe programar. Agora vamos criar mundos."*
+## 🔗 NotebookLM — Do Código ao Console
+
+Acesse o NotebookLM utilizado neste projeto:  
+👉 https://notebooklm.google.com/notebook/048908e8-d46d-4d61-b38f-3405eff22b2a
+
+> Obs.: É necessário estar logado com uma conta Google para visualizar ou criar notebooks.
+
+---
+
+**Você já sabe programar. Agora é hora de criar mundos. 🚀**

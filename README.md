@@ -1,6 +1,6 @@
 # Bradesco - GenAI & Dados
 
-![Descrição da Imagem](.github/assets/banner.png)
+![Logo do Bootcamp](.github/assets/banner.png)
 
 Bem-vindo ao repositório oficial da minha jornada no **Bootcamp Bradesco - GenAI & Dados**, oferecido pela [Digital Innovation One (DIO)](https://www.dio.me).  
 Aqui você encontrará desafios de código, projetos práticos, anotações e experimentos desenvolvidos ao longo da formação, com foco em **dados, Python e inteligência artificial generativa aplicada ao dia a dia**.
